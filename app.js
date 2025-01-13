@@ -15,7 +15,7 @@ const limiter = rateLimit({
 
 app.use(limiter)
 
-app.use('/weather',weatherRouter)
+app.use('/',weatherRouter)
 
 export {WEATHER_API}
 export default app;
